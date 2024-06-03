@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34407.89
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNUS Shop", "SNUS Shop.csproj", "{CE3733B4-4DF7-47AB-B4FD-444377874389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SNUS Shop", "SNUS Shop.csproj", "{CE3733B4-4DF7-47AB-B4FD-444377874389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnusShop.Common", "..\SnusShop.Common\SnusShop.Common.csproj", "{62896970-9612-4E87-82B5-1D5BD0449112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnusShop.Data", "..\SnusShop.Data\SnusShop.Data.csproj", "{ECD550BA-BB34-4FCE-B16D-92C67FCDE8B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnusShop.Data.Models", "..\SnusShop.Data.Models\SnusShop.Data.Models.csproj", "{D723042D-5ABE-4F0F-BA0E-436714D68ABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnusShop.Web.ViewModels", "..\SnusShop.Web.ViewModels\SnusShop.Web.ViewModels.csproj", "{12A1C52A-52B4-4034-B892-13C3625681B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{CE3733B4-4DF7-47AB-B4FD-444377874389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE3733B4-4DF7-47AB-B4FD-444377874389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE3733B4-4DF7-47AB-B4FD-444377874389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62896970-9612-4E87-82B5-1D5BD0449112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62896970-9612-4E87-82B5-1D5BD0449112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62896970-9612-4E87-82B5-1D5BD0449112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62896970-9612-4E87-82B5-1D5BD0449112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD550BA-BB34-4FCE-B16D-92C67FCDE8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD550BA-BB34-4FCE-B16D-92C67FCDE8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD550BA-BB34-4FCE-B16D-92C67FCDE8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD550BA-BB34-4FCE-B16D-92C67FCDE8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D723042D-5ABE-4F0F-BA0E-436714D68ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D723042D-5ABE-4F0F-BA0E-436714D68ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D723042D-5ABE-4F0F-BA0E-436714D68ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D723042D-5ABE-4F0F-BA0E-436714D68ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A1C52A-52B4-4034-B892-13C3625681B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A1C52A-52B4-4034-B892-13C3625681B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A1C52A-52B4-4034-B892-13C3625681B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A1C52A-52B4-4034-B892-13C3625681B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
