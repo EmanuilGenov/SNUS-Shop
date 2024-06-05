@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj": {}
+    "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj": {
+    "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj",
         "projectName": "SnusShop.Web.ViewModels",
-        "projectPath": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj",
+        "projectPath": "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Emanuil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Web.ViewModels\\obj\\",
+        "outputPath": "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Web.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Emanuil\\AppData\\Roaming\\NuGet\\NuGet.Config",

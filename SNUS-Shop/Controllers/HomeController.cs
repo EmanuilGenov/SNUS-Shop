@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using SnusShop.Data.Models;
+using SnusShop.Web.ViewModels;
 using System.Diagnostics;
 
 

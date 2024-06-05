@@ -1,4 +1,4 @@
-namespace SnusShop.Data.Models
+namespace SnusShop.Web.ViewModels
 {
     public class ErrorViewModel
     {

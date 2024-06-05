@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SnusShop.Data.Models\SnusShop.Data.Models.csproj" />
     <ProjectReference Include="..\SnusShop.Data\SnusShop.Data.csproj" />
+    <ProjectReference Include="..\SnusShop.Web.ViewModels\SnusShop.Web.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

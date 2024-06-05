@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Common\\SnusShop.Common.csproj": {}
+    "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Common\\SnusShop.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Common\\SnusShop.Common.csproj": {
+    "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Common\\SnusShop.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Common\\SnusShop.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Common\\SnusShop.Common.csproj",
         "projectName": "SnusShop.Common",
-        "projectPath": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Common\\SnusShop.Common.csproj",
+        "projectPath": "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Common\\SnusShop.Common.csproj",
         "packagesPath": "C:\\Users\\Emanuil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Common\\obj\\",
+        "outputPath": "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Emanuil\\AppData\\Roaming\\NuGet\\NuGet.Config",

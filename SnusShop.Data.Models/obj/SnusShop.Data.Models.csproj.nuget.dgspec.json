@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj": {}
+    "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj": {
+    "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj",
         "projectName": "SnusShop.Data.Models",
-        "projectPath": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj",
+        "projectPath": "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj",
         "packagesPath": "C:\\Users\\Emanuil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data.Models\\obj\\",
+        "outputPath": "C:\\Users\\Emanuil\\source\\repos\\SnusShop\\SnusShop.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Emanuil\\AppData\\Roaming\\NuGet\\NuGet.Config",
