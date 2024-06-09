@@ -31,3 +31,6 @@ C:\Users\Emanuil\source\repos\SnusShop\SnusShop.Data\bin\Debug\net8.0\SnusShop.D
 C:\Users\Emanuil\source\repos\SnusShop\SnusShop.Data\obj\Debug\net8.0\SnusShop.FE4CBF2E.Up2Date
 C:\Users\Emanuil\source\repos\SnusShop\SnusShop.Data\obj\Debug\net8.0\SnusShop.Data.genruntimeconfig.cache
 C:\Users\Emanuil\source\repos\SnusShop\SnusShop.Data\obj\Debug\net8.0\ref\SnusShop.Data.dll
+C:\Users\Emanuil\source\repos\SNUS-Shop\SnusShop.Data\bin\Debug\net8.0\SnusShop.Data.Models.dll
+C:\Users\Emanuil\source\repos\SNUS-Shop\SnusShop.Data\bin\Debug\net8.0\SnusShop.Data.Models.pdb
+C:\Users\Emanuil\source\repos\SNUS-Shop\SnusShop.Data\obj\Debug\net8.0\SnusShop.FE4CBF2E.Up2Date
