@@ -1,0 +1,55 @@
+﻿@model IEnumerable<SnusShop.Web.ViewModels.ProductViewModel>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snus Shop - All Products</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Snus Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Shop/All">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="shop">
+        <div class="container">
+            <h2>Our Snus Products</h2>
+            <div class="products-grid">
+                @foreach (var product in Model)
+                {
+                        <div class="product-item">
+                            <img src="@product.ImageUrl" alt="@product.Name">
+                            <h3>@product.Name</h3>
+                            <p>@product.Description</p>
+                            <p>@product.Price.ToString("C")</p>
+                            <a href="/Shop/Details/@product.Id" class="btn">View Details</a>
+                        </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Snus Shop. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Return Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

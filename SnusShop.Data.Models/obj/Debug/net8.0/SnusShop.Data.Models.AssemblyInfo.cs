@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SnusShop.Data.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a687577d117df5b491631baa9789c189c948947")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdb1692339aa25ab5ed86b2593730b5f11de100d")]
 [assembly: System.Reflection.AssemblyProductAttribute("SnusShop.Data.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SnusShop.Data.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

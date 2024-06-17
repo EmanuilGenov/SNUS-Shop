@@ -11,7 +11,6 @@ namespace SnusShop.Data.Models
 {
     public class Product
     {
-        //maxlent to add in contstants
 
         [Key]
         public int Id { get; init; }

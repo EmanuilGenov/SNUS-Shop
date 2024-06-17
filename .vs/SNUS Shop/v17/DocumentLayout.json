@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snus-shop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|solutionrelative:snus-shop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snus-shop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|solutionrelative:snus-shop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snus-shop\\views\\shop\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|solutionrelative:snus-shop\\views\\shop\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snus-shop\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|solutionrelative:snus-shop\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snus-shop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,12 +27,28 @@
       "RelativeMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|solutionrelative:snus-shop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snus-shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|solutionrelative:snus-shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snus-shop\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|solutionrelative:snus-shop\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snus-shop\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|solutionrelative:snus-shop\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A96B47A-B0AC-402B-A225-B9246457794B}|SnusShop.Data\\SnusShop.Data.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snusshop.data\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A96B47A-B0AC-402B-A225-B9246457794B}|SnusShop.Data\\SnusShop.Data.csproj|solutionrelative:snusshop.data\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snus-shop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{956A7417-93D2-4F4B-BCC5-0BB219B82BB0}|SNUS-Shop\\SnusShop.csproj|solutionrelative:snus-shop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A96B47A-B0AC-402B-A225-B9246457794B}|SnusShop.Data\\SnusShop.Data.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snusshop.data\\migrations\\20240617065944_betterseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A96B47A-B0AC-402B-A225-B9246457794B}|SnusShop.Data\\SnusShop.Data.csproj|solutionrelative:snusshop.data\\migrations\\20240617065944_betterseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B15EB99-9F5A-490C-8BDE-64463DD3AA5D}|SnusShop.Data.Models\\SnusShop.Data.Models.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snusshop.data.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15EB99-9F5A-490C-8BDE-64463DD3AA5D}|SnusShop.Data.Models\\SnusShop.Data.Models.csproj|solutionrelative:snusshop.data.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C332D2-5478-4FBA-9920-578D7D01440A}|SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj|c:\\users\\emanuil\\source\\repos\\snus-shop\\snusshop.web.viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C332D2-5478-4FBA-9920-578D7D01440A}|SnusShop.Web.ViewModels\\SnusShop.Web.ViewModels.csproj|solutionrelative:snusshop.web.viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,67 +63,157 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SNUS-Shop\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "SNUS-Shop\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAGwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T16:46:01.198Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SNUS-Shop\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SNUS-Shop\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T17:38:06.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "SNUS-Shop\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "SNUS-Shop\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T17:12:38.809Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SNUS-Shop\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SNUS-Shop\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAowKkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-17T07:36:20.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AboutUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Home\\AboutUs.cshtml",
-              "RelativeDocumentMoniker": "SNUS-Shop\\Views\\Home\\AboutUs.cshtml",
-              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Home\\AboutUs.cshtml",
-              "RelativeToolTip": "SNUS-Shop\\Views\\Home\\AboutUs.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAHAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SNUS-Shop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SNUS-Shop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T17:08:43.978Z",
+              "WhenOpened": "2024-06-17T07:30:19.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "SNUS-Shop\\Views\\Shop\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "SNUS-Shop\\Views\\Shop\\Details.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T07:24:31.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Program.cs",
-              "RelativeDocumentMoniker": "SNUS-Shop\\Program.cs",
-              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Program.cs",
-              "RelativeToolTip": "SNUS-Shop\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "SNUS-Shop\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "SNUS-Shop\\Controllers\\ShopController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T17:00:00.724Z",
+              "WhenOpened": "2024-06-17T07:01:26.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SnusShop.Data\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SnusShop.Data\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:42:44.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Shop\\All.cshtml",
+              "RelativeDocumentMoniker": "SNUS-Shop\\Views\\Shop\\All.cshtml",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Shop\\All.cshtml",
+              "RelativeToolTip": "SNUS-Shop\\Views\\Shop\\All.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T06:39:22.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SNUS-Shop\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SNUS-Shop\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T08:04:39.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SNUS-Shop\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SNUS-Shop\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:39:36.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240617065944_BetterSeeding.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data\\Migrations\\20240617065944_BetterSeeding.cs",
+              "RelativeDocumentMoniker": "SnusShop.Data\\Migrations\\20240617065944_BetterSeeding.cs",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data\\Migrations\\20240617065944_BetterSeeding.cs",
+              "RelativeToolTip": "SnusShop.Data\\Migrations\\20240617065944_BetterSeeding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:59:44.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SNUS-Shop\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SNUS-Shop\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SNUS-Shop\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T07:04:32.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Web.ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "SnusShop.Web.ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Web.ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "SnusShop.Web.ViewModels\\ProductViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:37:56.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data.Models\\Product.cs",
+              "RelativeDocumentMoniker": "SnusShop.Data.Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Data.Models\\Product.cs",
+              "RelativeToolTip": "SnusShop.Data.Models\\Product.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:21:24.068Z",
               "EditorCaption": ""
             }
           ]

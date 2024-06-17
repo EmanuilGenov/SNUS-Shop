@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vG0/NtM73IQ=",
+  "dgSpecHash": "o+H8csGTgbMqOSlVYa18TYjv/sKrnk6s1tiGJTSFj1a/DhQMOBXn7T+ITDIjLKzdu81KU0dAf4TVkldw47kFcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emanuil\\source\\repos\\SNUS-Shop\\SnusShop.Common\\SnusShop.Common.csproj",
+  "projectFilePath": "C:\\Users\\Emanuil\\Source\\Repos\\SNUS-Shop\\SnusShop.Common\\SnusShop.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emanuil\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Emanuil\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

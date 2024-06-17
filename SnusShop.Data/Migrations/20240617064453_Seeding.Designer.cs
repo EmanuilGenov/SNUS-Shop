@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SnusShop.Data.Data;
 
@@ -11,9 +12,11 @@ using SnusShop.Data.Data;
 namespace SnusShop.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240617064453_Seeding")]
+    partial class Seeding
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -298,56 +301,6 @@ namespace SnusShop.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Description = "Description for product 1",
-                            ImageUrl = "https://dip-store.com/_next/image?url=http%3A%2F%2Fstatic.dripeurope.com%2Fproducts%2FPAZ%2Fpaz-x_freeze.png&w=1920&q=75",
-                            Name = "Product 1",
-                            Price = 19.99m
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Description = "Description for product 2",
-                            ImageUrl = "https://dip-store.com/_next/image?url=https%3A%2F%2Fstatic.dripeurope.com%2FDIP%2520STORE%2FProducts%2FPAZ%2Fpazz-daytona.png&w=1080&q=75",
-                            Name = "Product 2",
-                            Price = 24.99m
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Description = "Description for product 3",
-                            ImageUrl = "https://dip-store.com/_next/image?url=https%3A%2F%2Fstatic.dripeurope.com%2FDIP%2520STORE%2FProducts%2FV%26YOU%2F%26BOOST%2B%2Fboost%2B-cool-berry-new.png&w=1080&q=75",
-                            Name = "Product 3",
-                            Price = 29.99m
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Description = "Description for product 4",
-                            ImageUrl = "https://dip-store.com/_next/image?url=http%3A%2F%2Fstatic.dripeurope.com%2Fproducts%2FACE%2Fcool%2520mint%2Face-cool_mint-front-opened.png&w=1080&q=75",
-                            Name = "Product 4",
-                            Price = 34.99m
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Description = "Description for product 5",
-                            ImageUrl = "https://dip-store.com/_next/image?url=http%3A%2F%2Fstatic.dripeurope.com%2Fproducts%2FACE%2520X%2Face_x-cool_mint-side.png&w=1080&q=75",
-                            Name = "Product 5",
-                            Price = 39.99m
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Description = "Description for product 6",
-                            ImageUrl = "https://dip-store.com/_next/image?url=https%3A%2F%2Fstatic.dripeurope.com%2FDIP%2520STORE%2FProducts%2FV%26YOU%2F%26BOOST%2Fboost-blueberry-old.png&w=1080&q=75",
-                            Name = "Product 6",
-                            Price = 44.99m
-                        });
                 });
 
             modelBuilder.Entity("SnusShop.Data.Models.Seller", b =>

@@ -1,0 +1,52 @@
+﻿@model SnusShop.Web.ViewModels.ProductViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snus Shop - @Model.Name</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Snus Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Shop/All">Shop</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="product-details">
+        <div class="container">
+            <div class="product-details-card">
+                <img src="@Model.ImageUrl" alt="@Model.Name">
+                <div class="product-details-info">
+                    <h2>@Model.Name</h2>
+                    <p>@Model.Description</p>
+                    <p class="price">@Model.Price.ToString("C")</p>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="/Shop/All" class="btn-secondary">Back to Shop</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Snus Shop. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Return Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
