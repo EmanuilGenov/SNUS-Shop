@@ -129,3 +129,48 @@ footer {
             color: white;
             text-decoration: none;
         }
+/* Homepage Container */
+.homepage-container {
+    position: relative;
+    width: 100%;
+    height: 25vh; /* Top quarter of the screen */
+    overflow: hidden;
+}
+
+    /* Image Styling */
+    .homepage-container .homepageimg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Title Styling */
+    .homepage-container .shop-title {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 2em;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Button Styling */
+    .homepage-container .shop-button {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+        .homepage-container .shop-button:hover {
+            background-color: #0056b3;
+            transform: translateX(-50%) scale(1.05);
+        }
