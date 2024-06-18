@@ -9,8 +9,34 @@
                 <p>@product.Description</p>
                 <p>@product.Price.ToString("C")</p>
                 <a href="/Shop/Details/@product.Id" class="btn">View Details</a>
+                <form class="add-to-cart-form" data-product-id="@product.Id" style="display:inline;">
+                    <input type="hidden" name="quantity" value="1" />
+                    <button type="submit" class="btn btn-primary">Add to Cart</button>
+                </form>
             </div>
         }
     </div>
 </div>
-
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.add-to-cart-form').on('submit', function (e) {
+                e.preventDefault();
+                var productId = $(this).data('product-id');
+                var quantity = $(this).find('input[name="quantity"]').val();
+                $.ajax({
+                    url: '@Url.Action("AddToCart", "Shop")',
+                    type: 'POST',
+                    data: { productId: productId, quantity: quantity },
+                    success: function (result) {
+                        alert('Product added to cart!');
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Failed to add product to cart.');
+                    }
+                });
+            });
+        });
+    </script>
+}

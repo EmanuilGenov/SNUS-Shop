@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emanuil\\Desktop\\amfeti\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj": {}
+    "C:\\Users\\Emanuil\\Desktop\\proekt\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emanuil\\Desktop\\amfeti\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj": {
+    "C:\\Users\\Emanuil\\Desktop\\proekt\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emanuil\\Desktop\\amfeti\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Emanuil\\Desktop\\proekt\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj",
         "projectName": "SnusShop.Data.Models",
-        "projectPath": "C:\\Users\\Emanuil\\Desktop\\amfeti\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj",
+        "projectPath": "C:\\Users\\Emanuil\\Desktop\\proekt\\SnusShop.Data.Models\\SnusShop.Data.Models.csproj",
         "packagesPath": "C:\\Users\\Emanuil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emanuil\\Desktop\\amfeti\\SnusShop.Data.Models\\obj\\",
+        "outputPath": "C:\\Users\\Emanuil\\Desktop\\proekt\\SnusShop.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Emanuil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

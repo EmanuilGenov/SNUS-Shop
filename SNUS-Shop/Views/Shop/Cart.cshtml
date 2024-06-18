@@ -32,6 +32,9 @@
         <div>
             <strong>Total: </strong>@Model.Sum(op => op.Quantity * op.Price).ToString("C")
         </div>
+    <form asp-action="FinalizeOrder" method="post">
+        <button type="submit" class="btn btn-success">Finalize Order</button>
+    </form>
 }
 else
 {

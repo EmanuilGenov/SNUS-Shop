@@ -101,7 +101,61 @@ namespace SnusShop.Controllers
 
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Cart");
+            return Json(new { success = true });
+        }
+
+        public async Task<IActionResult> RemoveFromCart(int productId)
+        {
+            var clientId = _userManager.GetUserId(User);
+            var order = await _context.Orders
+                                      .Include(o => o.OrderProducts)
+                                      .FirstOrDefaultAsync(o => o.ClientId == clientId && !o.IsCompleted);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            var orderProduct = order.OrderProducts.FirstOrDefault(op => op.ProductId == productId);
+
+            if (orderProduct != null)
+            {
+                if (orderProduct.Quantity > 1)
+                {
+                    orderProduct.Quantity -= 1;
+                }
+                else
+                {
+                    order.OrderProducts.Remove(orderProduct);
+                }
+
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Cart));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> FinalizeOrder()
+        {
+            var clientId = _userManager.GetUserId(User);
+            var order = await _context.Orders
+                                      .Include(o => o.OrderProducts)
+                                      .FirstOrDefaultAsync(o => o.ClientId == clientId && !o.IsCompleted);
+
+            if (order != null)
+            {
+                order.IsCompleted = true;
+                await _context.SaveChangesAsync();
+            }
+
+            TempData["OrderStatus"] = "Order sent";
+            return RedirectToAction(nameof(OrderConfirmation));
+        }
+
+        public IActionResult OrderConfirmation()
+        {
+            return View();
         }
 
         // GET: /Shop/Cart
