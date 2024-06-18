@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SnusShop.Data.Data;
 
@@ -11,9 +12,11 @@ using SnusShop.Data.Data;
 namespace SnusShop.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240618063450_OrderUpdate")]
+    partial class OrderUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -86,11 +89,6 @@ namespace SnusShop.Data.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(13)
-                        .HasColumnType("nvarchar(13)");
-
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -142,10 +140,6 @@ namespace SnusShop.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
-
-                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -233,18 +227,31 @@ namespace SnusShop.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("SnusShop.Data.Models.Client", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Clients");
+                });
+
             modelBuilder.Entity("SnusShop.Data.Models.Order", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("ClientId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("ClientId1")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("ClientId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<bool>("IsCompleted")
                         .HasColumnType("bit");
@@ -253,9 +260,7 @@ namespace SnusShop.Data.Migrations
 
                     b.HasIndex("ClientId");
 
-                    b.HasIndex("ClientId1");
-
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("SnusShop.Data.Models.OrderProduct", b =>
@@ -273,7 +278,7 @@ namespace SnusShop.Data.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrdersProducts", (string)null);
+                    b.ToTable("OrdersProducts");
                 });
 
             modelBuilder.Entity("SnusShop.Data.Models.Product", b =>
@@ -301,7 +306,7 @@ namespace SnusShop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
 
                     b.HasData(
                         new
@@ -373,7 +378,7 @@ namespace SnusShop.Data.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Sellers", (string)null);
+                    b.ToTable("Sellers");
                 });
 
             modelBuilder.Entity("SnusShop.Data.Models.SellerProduct", b =>
@@ -388,14 +393,7 @@ namespace SnusShop.Data.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("SellersProducts", (string)null);
-                });
-
-            modelBuilder.Entity("SnusShop.Data.Models.Client", b =>
-                {
-                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
-
-                    b.HasDiscriminator().HasValue("Client");
+                    b.ToTable("SellersProducts");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -449,17 +447,24 @@ namespace SnusShop.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("SnusShop.Data.Models.Client", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("SnusShop.Data.Models.Order", b =>
                 {
                     b.HasOne("SnusShop.Data.Models.Client", "Client")
-                        .WithMany()
-                        .HasForeignKey("ClientId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("SnusShop.Data.Models.Client", null)
                         .WithMany("Orders")
-                        .HasForeignKey("ClientId1");
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Client");
                 });
@@ -513,6 +518,11 @@ namespace SnusShop.Data.Migrations
                     b.Navigation("Seller");
                 });
 
+            modelBuilder.Entity("SnusShop.Data.Models.Client", b =>
+                {
+                    b.Navigation("Orders");
+                });
+
             modelBuilder.Entity("SnusShop.Data.Models.Order", b =>
                 {
                     b.Navigation("OrderProducts");
@@ -521,11 +531,6 @@ namespace SnusShop.Data.Migrations
             modelBuilder.Entity("SnusShop.Data.Models.Seller", b =>
                 {
                     b.Navigation("SellerProducts");
-                });
-
-            modelBuilder.Entity("SnusShop.Data.Models.Client", b =>
-                {
-                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }

@@ -21,5 +21,7 @@ namespace SnusShop.Data.Models
         public int ProductId { get; set; }
         [Required]
         public Product Product { get; set; } = null!;
+
+        public int Quantity { get; set; }
     }
 }

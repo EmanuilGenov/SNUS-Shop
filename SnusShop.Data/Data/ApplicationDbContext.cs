@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
-using SnusShop.Data.Models;
+using SnusShop.Data.Models; 
 using System.Reflection.Emit;
 using System.Reflection.Metadata;
 
@@ -14,7 +14,6 @@ namespace SnusShop.Data.Data
         {
 
         }
-        public DbSet<Client> Clients { get; set; } = null!;
         public DbSet<Order> Orders { get; set; } = null!;
         public DbSet<Product> Products { get; set; } = null!;
         public DbSet<Seller> Sellers { get; set; } = null!;
@@ -23,15 +22,29 @@ namespace SnusShop.Data.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
 
+            builder.Entity<Order>()
+                .HasOne(o => o.Client)
+                .WithMany()
+                .HasForeignKey(o => o.ClientId)
+                .OnDelete(DeleteBehavior.Restrict); // Adjust delete behavior as needed
+
+            builder.Entity<Order>()
+                .HasMany(o => o.OrderProducts)
+                .WithOne(op => op.Order)
+                .HasForeignKey(op => op.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
+
             builder.Entity<OrderProduct>()
                 .HasKey(op => new { op.OrderId, op.ProductId });
 
             builder.Entity<SellerProduct>()
             .HasKey(sp => new { sp.SellerId, sp.ProductId });
 
+            SeedProducts(builder);
+
             base.OnModelCreating(builder);
 
-            SeedProducts(builder);
+
         }
 
         private void SeedProducts(ModelBuilder modelBuilder)

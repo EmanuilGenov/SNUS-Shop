@@ -8,18 +8,8 @@ using System.Threading.Tasks;
 
 namespace SnusShop.Data.Models
 {
-    public class Client
+    public class Client : IdentityUser
     {
-        public Client()
-        {
-            Orders = new HashSet<Order>();
-            Id = new Guid();
-        }
-        public Guid Id { get; set; }
-
-        [Required]
-        public string UserId { get; set; } = null!;
-        public IdentityUser User { get; set; } = null!;
-        public ICollection<Order> Orders { get; set; }
+        public ICollection<Order> Orders { get; set; } = new List<Order>();
     }
 }

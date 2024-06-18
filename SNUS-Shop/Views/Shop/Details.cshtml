@@ -1,11 +1,15 @@
-﻿@model SnusShop.Web.ViewModels.ProductViewModel
+﻿@* @model SnusShop.Web.ViewModels.ProductViewModel *@
+@model SnusShop.Data.Models.Product
+@{
+    ViewData["Title"] = "Product Details";
+}
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snus Shop - @Model.Name</title>
+    <title>@ViewData["Title"] - Snus Shop</title>
     <link rel="stylesheet" href="~/css/styles.css">
 </head>
 <body>
@@ -16,6 +20,7 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/Shop/All">Shop</a></li>
+                    <li><a href="/Shop/Cart">Cart</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -25,16 +30,19 @@
 
     <section class="product-details">
         <div class="container">
-            <div class="product-details-card">
+            <h2>@Model.Name</h2>
+            <div class="product-image">
                 <img src="@Model.ImageUrl" alt="@Model.Name">
-                <div class="product-details-info">
-                    <h2>@Model.Name</h2>
-                    <p>@Model.Description</p>
-                    <p class="price">@Model.Price.ToString("C")</p>
-                    <a href="#" class="btn">Buy Now</a>
-                    <a href="/Shop/All" class="btn-secondary">Back to Shop</a>
-                </div>
             </div>
+            <p>@Model.Description</p>
+            <p>Price: @Model.Price.ToString("C")</p>
+
+            <form asp-controller="Shop" asp-action="AddToCart" method="post">
+                <input type="hidden" name="productId" value="@Model.Id" />
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1" required />
+                <button type="submit" class="btn">Add to Cart</button>
+            </form>
         </div>
     </section>
 

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<SnusShop.Web.ViewModels.OrderProductViewModel>
+
+<h1>Shopping Cart</h1>
+
+@if (Model.Any())
+{
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th></th> <!-- Add a column for remove button -->
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                        <tr>
+                            <td>@item.ProductName</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.Price.ToString("C")</td>
+                            <td>
+                                <form asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">
+                                    <button type="submit" class="btn btn-danger">Remove</button>
+                                </form>
+                            </td>
+                        </tr>
+            }
+            </tbody>
+        </table>
+        <div>
+            <strong>Total: </strong>@Model.Sum(op => op.Quantity * op.Price).ToString("C")
+        </div>
+}
+else
+{
+        <p>Your cart is empty.</p>
+}
