@@ -13,16 +13,10 @@ using System.Threading.Tasks;
 
 namespace SnusShop.Controllers
 {
-    public class ShopController : Controller
+    public class ShopController(ApplicationDbContext context, UserManager<IdentityUser> userManager) : Controller
     {
-        private readonly ApplicationDbContext _context;
-        private readonly UserManager<IdentityUser> _userManager;
-
-        public ShopController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
-        {
-            _context = context;
-            _userManager = userManager;
-        }
+        private readonly ApplicationDbContext _context = context;
+        private readonly UserManager<IdentityUser> _userManager = userManager;
 
         [AllowAnonymous] // Allow anonymous access to shop page
         public async Task<IActionResult> All()
